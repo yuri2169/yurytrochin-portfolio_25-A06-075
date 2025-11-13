@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(120deg, #f4fbff, #90e2ec 45%, #bfd9fe 100%);
+    min-height: 100vh;
+}
+
+#links {
+    text-align: center;
+    margin: 30px 40px 0 0;
+}
+
+.fancy-link {
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 12px 30px;
+    background: linear-gradient(90deg, #4A90E2 0%, #50E3C2 100%);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.13);
+    transition: background 0.4s, transform 0.2s;
+}
+.fancy-link:hover, .fancy-link:focus {
+    background: linear-gradient(90deg, #50E3C2 0%, #4A90E2 100%);
+    transform: scale(1.08);
+    text-decoration: underline;
+}
+
+#contact-container {
+    background: rgba(255,255,255,0.16);
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 44px 36px 32px 36px;
+    border-radius: 14px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.25);
+    text-align: center;
+}
+
+#contact-container h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+    color: black;
+    letter-spacing: 1px;
+}
+
+#contact-container p {
+    color: black;
+    margin-bottom: 24px;
+}
+
+#contact-container input, #contact-container textarea {
+    width: 100%;
+    margin: 8px 0 18px 0;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.55);
+    font-size: 1em;
+    font-family: inherit;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+#contact-container textarea {
+    resize: vertical;
+}
+
+#contact-container input:focus, #contact-container textarea:focus {
+    outline: 2px solid #4A90E2;
+    background: #fff;
+}
+#second{
+    color: linear-gradient(120deg, #000000, #90e2ec 45%, #bfd9fe 100%);
+}
+marquee{
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+table, th, td{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 30%;
+    margin-top:3%;
+    text-align: center;
+    font-size: larger;
+    outline:2px solid #4A90E2
+}
+#skilltop{
+    margin-left:50%;
+    margin-top: 50px;
+    border:0%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2em;
+    background: linear-gradient(90deg,rgb(0, 0, 135), #4e94fc 0%, #02ffe1a8 100%);
+    color: white;
+    font-family: inherit;
+    text-shadow: 2px 2px 4px #000000;
+}
+#skilltop:hover{
+    transform: scale(1.08);
+    text-decoration: underline;
+}
+#examinations{
+    margin-left:35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#language{
+    margin-left:40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#skills{
+    margin-left:35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#first{
+    color:black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+    font-style: bold;
+    font-family: inherit;
+    text-align: center;
+}
+.home-container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.home-container h1{
+    max-width: 400px;
+    text-align: left;
+    color:black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+    font-style: bold;
+    font-family: inherit;
+}
+#second{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    text-shadow: 2px 2px 4px #858585;
+    font-style: bold;
+    font-family: inherit;
+    text-align: center;
+}
+#second p{
+    font-size: larger;
+}
+#portfolio-header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    border:0%;
+    border-radius: 10px;
+   
+    font-size: 2em;
+
+    color: white;
+    font-family: inherit;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#portfolio-header img{
+    margin-left: 50%;
+    width: 200px;
+    height: 200px;
+}   
+#portfolio-header p{
+    font-size:small;
+}
+#projects-body{
+    
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    text-align: center;
+    color:white;
+    font-family: inherit;
+    text-shadow: 2px 2px 4px #000000;
+}
+#projects-body p{
+    font-size: medium;
+}
+#projects-body ul{
+    color:black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+    display:grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    justify-content: center;
+    column-gap: 300px    ;
+    row-gap: 30px   ;
+}
+#experience{
+    
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    
+    color:black;
+    text-shadow: 2px 2px 4px #FFFFFF;
+}
+#experience h2{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#experience table{
+       box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top:3%;
+    text-align: center;
+    font-size: larger;
+    outline:2px solid #4A90E2
+
+}
+#experience h3 {
+    text-align: center;
+    font-size: x-large;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#experience ul{
+    justify-content: center;
+    margin-left: 40%;
+  
+    font-size: larger   ;
+}
+#boxing{
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 20px;
+}
